@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom"
 
 export default function NavBar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
         <div className="flex items-center justify-between py-8">
-            <span class="text-3xl text-slate-300 cursor-pointer mx-2 block hover:text-4xl hover:text-blue-300">
+            <span class="text-3xl text-slate-300 cursor-pointer mx-2 block ease-in-out duration-300 hover:scale-110 hover:text-blue-300">
                 <a href="/"><ion-icon name="home"></ion-icon></a>
             </span>
             <nav>
@@ -23,7 +24,7 @@ export default function NavBar() {
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                         <div
                             className="absolute top-0 right-0 px-8 py-8"
-                            onClick={() => setIsNavOpen(false)} 
+                            onClick={() => setIsNavOpen(false)}
                         >
                             <span class="text-3xl cursor-pointer mx-2 md:hidden block">
                                 <ion-icon name="close"></ion-icon>
@@ -32,39 +33,39 @@ export default function NavBar() {
                         </div>
                         <ul className="flex flex-col items-center justify-between">
                             <li className="my-8 uppercase font-bold">
-                                <a href="/about">About</a>
+                                <Link to="/about">About</Link>
                             </li>
                             <li className="my-8 uppercase font-bold">
-                                <a href="/education">Education</a>
+                                <Link to="/education">Education</Link>
                             </li>
                             <li className="my-8 uppercase font-bold">
-                                <a href="/skills">Skills</a>
+                                <Link to="/skills">Skills</Link>
                             </li>
                             <li className="my-8 uppercase font-bold">
-                                <a href="/projects">Projects</a>
+                                <Link to="/projects">Projects</Link>
                             </li>
                             <li className="my-8 uppercase font-bold">
-                                <a href="/experience">Experience</a>
+                                <Link to="/experience">Experience</Link>
                             </li>
                         </ul>
                     </div>
                 </section>
 
                 <ul className="hidden space-x-8 md:flex font-bold text-white text-lg">
-                    <li className="uppercase hover:text-blue-300 hover:text-xl">
-                        <a href="/about">About</a>
+                    <li className="uppercase hover:text-blue-300 ease-in-out duration-300 hover:scale-110">
+                        <Link to="/about">About</Link>
                     </li>
-                    <li className="uppercase hover:text-blue-300 hover:text-xl">
-                        <a href="/education">Education</a>
+                    <li className="uppercase hover:text-blue-300 ease-in-out duration-300 hover:scale-110">
+                        <Link to="/education">Education</Link>
                     </li>
-                    <li className="uppercase hover:text-blue-300 hover:text-xl">
-                        <a href="/skills">Skills</a>
+                    <li className="uppercase hover:text-blue-300 ease-in-out duration-300 hover:scale-110">
+                        <Link to="/skills">Skills</Link>
                     </li>
-                    <li className="uppercase hover:text-blue-300 hover:text-xl">
-                        <a href="/projects">Projects</a>
+                    <li className="uppercase hover:text-blue-300 ease-in-out duration-300 hover:scale-110">
+                        <Link to="/projects">Projects</Link>
                     </li>
-                    <li className="uppercase hover:text-blue-300 hover:text-xl">
-                        <a href="/experience">Experience</a>
+                    <li className="uppercase hover:text-blue-300 ease-in-out duration-300 hover:scale-110">
+                        <Link to="/experience">Experience</Link>
                     </li>
                 </ul>
             </nav>
