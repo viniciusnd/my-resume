@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 export default function Home() {
   return (
     <div className="min-h-screen bg-red-700">
@@ -22,11 +23,11 @@ export default function Home() {
 
       </div>
       <div className="space-y-5 flex flex-col items-center text-white font-bold font-josefin justify-center md:space-y-0 md:flex-row md:space-x-10">
-        <a href="/about"><button className="bg-purple-400 border rounded-xl px-8 py-3 uppercase hover:bg-purple-700 hover:text-lg"> About Me </button></a>
-        <a href="/education"><button className="bg-purple-400 border rounded-xl px-7 py-3 uppercase hover:bg-purple-700 hover:text-lg"> Education </button></a>
-        <a href="/skills"><button className="bg-purple-400 border rounded-xl px-12 py-3 uppercase hover:bg-purple-700 hover:text-lg"> Skills </button></a>
-        <a href="/projects"><button className="bg-purple-400 border rounded-xl px-9 py-3 uppercase hover:bg-purple-700 hover:text-lg"> Projects </button></a>
-        <a href="/experience"><button className="bg-purple-400 border rounded-xl px-7 py-3 uppercase mb-5 hover:bg-purple-700 hover:text-lg md:mb-0"> Experience</button></a>
+        <Link to="/about"><button className="bg-purple-400 border rounded-xl px-8 py-3 uppercase hover:bg-purple-700 hover:text-lg"> About Me </button></Link>
+        <Link to="/education"><button className="bg-purple-400 border rounded-xl px-7 py-3 uppercase hover:bg-purple-700 hover:text-lg"> Education </button></Link>
+        <Link to="/skills"><button className="bg-purple-400 border rounded-xl px-12 py-3 uppercase hover:bg-purple-700 hover:text-lg"> Skills </button></Link>
+        <Link to="/projects"><button className="bg-purple-400 border rounded-xl px-9 py-3 uppercase hover:bg-purple-700 hover:text-lg"> Projects </button></Link>
+        <Link to="/experience"><button className="bg-purple-400 border rounded-xl px-7 py-3 uppercase mb-5 hover:bg-purple-700 hover:text-lg md:mb-0"> Experience</button></Link>
       </div>
 
 
