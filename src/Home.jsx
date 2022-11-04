@@ -23,11 +23,11 @@ export default function Home() {
 
       </div>
       <div className="space-y-5 flex flex-col items-center text-white font-bold font-josefin justify-center md:space-y-0 md:flex-row md:space-x-10">
-        <Link to="/about"><button className="bg-purple-400 border rounded-xl border-none px-4 md:px-8 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110 "> About Me </button></Link>
-        <Link to="/education"><button className="bg-purple-400 border rounded-xl px-3 md:px-7 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Education </button></Link>
-        <Link to="/skills"><button className="bg-purple-400 border rounded-xl px-8 md:px-12 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Skills </button></Link>
-        <Link to="/projects"><button className="bg-purple-400 border rounded-xl px-5 md:px-9 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Projects </button></Link>
-        <Link to="/experience"><button className="bg-purple-400 border rounded-xl px-3 md:px-7 py-1.5 md:py-3 uppercase ease-in-out duration-300 mb-5 hover:bg-purple-700 hover:scale-110 md:mb-0"> Experience</button></Link>
+        <Link to="/about"><button className="bg-purple-400 border rounded-xl border-none px-4 md:px-8 py-2 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110 "> About Me </button></Link>
+        <Link to="/education"><button className="bg-purple-400 border rounded-xl border-none px-3 md:px-7 py-2 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Education </button></Link>
+        <Link to="/skills"><button className="bg-purple-400 border rounded-xl border-none px-8 md:px-12 py-2 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Skills </button></Link>
+        <Link to="/projects"><button className="bg-purple-400 border rounded-xl border-none px-5 md:px-9 py-2 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Projects </button></Link>
+        <Link to="/experience"><button className="bg-purple-400 border rounded-xl border-none px-3 md:px-7 py-2 md:py-3 uppercase ease-in-out duration-300 mb-5 hover:bg-purple-700 hover:scale-110 md:mb-0"> Experience</button></Link>
       </div>
 
 
