@@ -6,7 +6,7 @@ export default function Home() {
         <header className="mt-5 text-white font-playfair text-xl md:text-3xl"> Pedro Vinicius </header>
       </div>
       <div className="flex justify-center">
-        <h1 className="font-bold font-amiri text-base md:text-xl text-white text-center items-center p-12 leading-loose">
+        <h1 className="font-bold font-amiri text-base md:text-2xl text-white text-center items-center p-12">
           Hello, dear visitant. My name is Pedro and now you are on my resumé page. By navegating throuth the pages you can get to know a little bit more about my professional and academic journey and also get to know what I want to do next, what my goals are.
           The intention of this page is to tell my professional and academic journey and to help you find how can I fit into your company or project and how we can help each other accomplish our goals.
           <h2 className="text-base md:text-lg text-left mt-5">
@@ -23,7 +23,7 @@ export default function Home() {
 
       </div>
       <div className="space-y-5 flex flex-col items-center text-white font-bold font-josefin justify-center md:space-y-0 md:flex-row md:space-x-10">
-        <Link to="/about"><button className="bg-purple-400 border rounded-xl px-4 md:px-8 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110 "> About Me </button></Link>
+        <Link to="/about"><button className="bg-purple-400 border rounded-xl border-none px-4 md:px-8 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110 "> About Me </button></Link>
         <Link to="/education"><button className="bg-purple-400 border rounded-xl px-3 md:px-7 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Education </button></Link>
         <Link to="/skills"><button className="bg-purple-400 border rounded-xl px-8 md:px-12 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Skills </button></Link>
         <Link to="/projects"><button className="bg-purple-400 border rounded-xl px-5 md:px-9 py-1.5 md:py-3 uppercase ease-in-out duration-300 hover:bg-purple-700 hover:scale-110"> Projects </button></Link>
