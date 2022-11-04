@@ -12,7 +12,7 @@ export default function About() {
         <img src="/imgs/personal.jpeg" className="w-40 border rounded-full mt-5 max-w-md" />
       </div>
       <div className="flex justify-center">
-        <p className="font-bold font-amiri text-xl text-white text-center p-12 leading-loose">
+        <p className="font-bold font-amiri text-base md:text-xl text-white text-center p-12 leading-loose">
           Graduated in Electronic Engineering and passionated with techonology,
           I keep studying programming and have some knowledge in programming languages such as C, C++, JavaScript
           and I am on my way to get a graduate degree in technology,

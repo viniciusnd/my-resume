@@ -7,7 +7,7 @@ export default function Skills() {
         <NavBar />
       </div>
       
-      <header className="text-white text-center font-playfair mt-5 text-3xl uppercase"> Skills </header>
+      <header className="text-white text-center font-playfair mt-5 text-2xl md:text-3xl uppercase"> Skills </header>
       <div className="text-white text-left text-base md:text-lg  flex flex-col ml-2 md:ml-5 mt-5 font-bold md:text-2xl">
         <p1 className="flex flex-row mt-10 md:ml-5">Microsoft Office: <img src="/imgs/word.png" className="w-8 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/excel.png" className="w-8 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/powerpoint.png" className="w-8 ml-2 md:w-10 md:ml-5" /></p1>
         <p2 className="flex flex-row mt-10 md:ml-5">Software Development: <img src="/imgs/js.png" className="w-5 ml-0 md:w-10 md:ml-5" /> <img src="/imgs/html.png" className="w-5 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/css.png" className="w-5 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/nodejs.png" className="w-5 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/react.png" className="w-5 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/python.png" className="w-5 ml-2 md:w-10 md:ml-5" /><img src="/imgs/c.png" className="w-5 ml-2 md:w-10 md:ml-5" /> <img src="/imgs/c++.png" className="w-5 ml-2 md:w-10 md:ml-5" /></p2>
