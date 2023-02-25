@@ -13,13 +13,8 @@ export default function About() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold font-amiri text-base md:text-xl text-white text-center p-12 leading-loose">
-          Graduated in Electronic Engineering and passionated with techonology,
-          I keep studying programming and have some knowledge in programming languages such as C, C++, JavaScript
-          and I am on my way to get a graduate degree in technology,
-          like systems development, multiplatform mobile apps, data analitycs
-          and get to know more about the languages I already have some knowledge in and other languages such as Python and Java.
-          I have experiences in developing projects with Arduino, Esp32 and other microcontrollers using C++.
-          I also have already used the Raspberry PI in a project on college, it was my Final Paper actually.
+        I am a software developer currently work with software test and validation. <br></br>
+        I have a degree in Electronic Engineering, and I am now a graduate student in Full Stack Development and Product Management.
         </p>
       </div>
 

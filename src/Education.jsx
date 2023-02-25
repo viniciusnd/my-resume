@@ -31,15 +31,8 @@ export default function Education() {
         </ul>
         <p4 className="flex flex-row mt-5 font-bold">Graduate Course:</p4>
         <ul className="ml-5 text-sm md:text-base mt-3 mb-5 flex flex-col md:flex-col md:text-left">
-          <li>- Desired Course Area: Software Development</li>
-          <li>- Status: Loading...</li>
-          <li>- Starting in: 2023</li>
-        </ul>
-        <p5 className="flex flex-row mt-5 font-bold">Personal Studies:</p5>
-        <ul className="ml-5 text-sm md:text-base mt-3 mb-5 flex flex-col md:flex-col md:text-left">
-          <li>- Currently I am studying by myself</li>
-          <li>- Goal: Become a Full-Stack Developer</li>
-          <li>- For more details of what I am studying go to <Link to="/skills">"Skills"</Link></li>
+          <li>- Full Stack Development & Product Management</li>
+          <li>- Status: In progress</li>
         </ul>
       </div>
     </div>
