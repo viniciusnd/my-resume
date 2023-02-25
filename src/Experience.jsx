@@ -33,7 +33,7 @@ export default function Experience() {
         </ul>
         <p4 className="flex flex-row mt-5 font-bold">MSX International:</p4>
         <ul className="ml-5 text-sm md:text-base mt-3 flex flex-col mb-3 md:flex-col md:text-left">
-          <li>- Role: Software Developer</li>
+          <li>- Role: Software Engineer</li>
           <li>- Function: Software test and validation</li>
           <li>- Period: Currently (Aug, 2022 - )</li>
         </ul>
