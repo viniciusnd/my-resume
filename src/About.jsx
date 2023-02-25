@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div className="flex justify-center">
         <p className="font-bold font-amiri text-base md:text-xl text-white text-center p-12 leading-loose">
-        I am a software developer currently work with software test and validation. <br></br>
+        I am currently work as a software engineer, working with software test and validation. <br></br>
         I have a degree in Electronic Engineering, and I am now a graduate student in Full Stack Development and Product Management.
         </p>
       </div>
