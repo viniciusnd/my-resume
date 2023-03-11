@@ -1,7 +1,7 @@
 import NavBar from '/src/Navigation'
 export default function Skills() {
   return (
-    <div className="min-h-screen bg-red-700">
+    <div className="min-h-screen bg-alana-700">
 
       <div className="mb-5 px-8">
         <NavBar />
